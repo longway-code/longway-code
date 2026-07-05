@@ -17,4 +17,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           COMMIT_MSG: "Update recent activity"
-          MAX_LINES: 10 # 展示最近 10 条动态
+          MAX_LINES: 20 # 展示最近 20 条动态
