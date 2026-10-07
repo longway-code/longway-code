@@ -1,3 +1,9 @@
+### Hi, I'm longway 👋
+
+I build **[Good App HQ](https://www.goodapphq.com/)** — an independent studio making focused, native apps for Mac, iPhone, and iPad.
+
+[ZipSeek](https://www.goodapphq.com/zipseek/) · [Sonaudit](https://www.goodapphq.com/sonaudit/) · [ContrastRadar](https://www.goodapphq.com/contrastradar/) · [DanceTake](https://www.goodapphq.com/dancetake/)
+
 ## ⚡ Open Source Contributions
 <!--START_SECTION:activity-->
 1. 🎉 Merged PR [#1684](https://github.com/ros2/rclpy/pull/1684) in [ros2/rclpy](https://github.com/ros2/rclpy)
