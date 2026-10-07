@@ -1,20 +1,59 @@
 name: Update README
+
 on:
   schedule:
     - cron: "*/30 * * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-activity
+  cancel-in-progress: false
+
 jobs:
   build:
     name: Update this repo's README with recent activity
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
       - uses: actions/checkout@v4
-      - uses: jamesgeorge007/github-activity-readme@master
+
+      - name: Rewrite the recent activity section
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          COMMIT_MSG: "Update recent activity"
-          MAX_LINES: 20 # 展示最近 20 条动态
+          GH_USERNAME: ${{ github.repository_owner }}
+          TARGET_FILE: README.md
+          MAX_LINES: "20"
+          FILTER_EVENTS: PullRequestEvent,IssuesEvent,IssueCommentEvent,ReleaseEvent
+          # GitHub only serves roughly the last 90 days of public events.
+          # With nothing to show the script keeps the previous list instead of
+          # blanking it out. Set to "false" if you prefer an empty section.
+          SKIP_WHEN_EMPTY: "true"
+        run: node .github/scripts/update-activity.mjs
+
+      - name: Commit and push when the README changed
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Update recent activity"
+          git push
+
+      # Optional. GitHub disables scheduled workflows after 60 days without
+      # repository activity. Uncomment to keep the cron alive during quiet
+      # periods.
+      # - name: Keep the schedule alive
+      #   run: |
+      #     last=$(git log -1 --format=%ct)
+      #     if [ $(( ( $(date +%s) - last ) / 86400 )) -gt 50 ]; then
+      #       git config user.name "github-actions[bot]"
+      #       git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      #       git commit --allow-empty -m "chore: keep the activity workflow active"
+      #       git push
+      #     fi
