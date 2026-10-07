@@ -9,7 +9,6 @@ I build **[Good App HQ](https://www.goodapphq.com/)** — an independent studio 
 - **Meituan** · Software Engineer (L7), Core Local Commerce — Shanghai · 2025.08 – 2026.07
 - **Microsoft** · SDE 2 (L62), M365 Search — Suzhou · 2021.01 – 2025.07
 - **Pinduoduo** · Backend Engineer, User Growth — Shanghai · 2019.04 – 2020.10
-- **Hefei Tongzhi Electromechanical** · Hardware Engineer, Training Simulators — Hefei · 2014.07 – 2015.07
 
 ### Education
 
