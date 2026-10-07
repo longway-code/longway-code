@@ -2,8 +2,6 @@
 
 I build Mac and iOS apps in my spare time.
 
-💼 [LinkedIn](https://www.linkedin.com/in/longweiliu/) · 🌐 [goodapphq.com](https://www.goodapphq.com/)
-
 ### Experience
 
 - **Meituan** · Agent Engineer (L7), Agent Development · Core Local Commerce — Shanghai · 2025.08 – 2026.07
