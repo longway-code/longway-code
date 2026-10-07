@@ -2,6 +2,8 @@
 
 I build Mac and iOS apps in my spare time.
 
+[ZipSeek](https://www.goodapphq.com/zipseek/) · [Sonaudit](https://www.goodapphq.com/sonaudit/) · [ContrastRadar](https://www.goodapphq.com/contrastradar/) · [DanceTake](https://www.goodapphq.com/dancetake/)
+
 ### Experience
 
 - **Meituan** · Agent Engineer (L7), Agent Development · Core Local Commerce — Shanghai · 2025.08 – 2026.07
