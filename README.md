@@ -1,8 +1,8 @@
 ### Hi, I'm longway 👋
 
-I build **[Good App HQ](https://www.goodapphq.com/)** — an independent studio making focused, native apps for Mac, iPhone, and iPad.
+I build Mac and iOS apps in my spare time.
 
-[ZipSeek](https://www.goodapphq.com/zipseek/) · [Sonaudit](https://www.goodapphq.com/sonaudit/) · [ContrastRadar](https://www.goodapphq.com/contrastradar/) · [DanceTake](https://www.goodapphq.com/dancetake/)
+💼 [LinkedIn](https://www.linkedin.com/in/longweiliu/) · 🌐 [goodapphq.com](https://www.goodapphq.com/)
 
 ### Experience
 
