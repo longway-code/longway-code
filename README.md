@@ -4,6 +4,18 @@ I build **[Good App HQ](https://www.goodapphq.com/)** — an independent studio 
 
 [ZipSeek](https://www.goodapphq.com/zipseek/) · [Sonaudit](https://www.goodapphq.com/sonaudit/) · [ContrastRadar](https://www.goodapphq.com/contrastradar/) · [DanceTake](https://www.goodapphq.com/dancetake/)
 
+### Experience
+
+- **Meituan** · Software Engineer (L7), Core Local Commerce — Shanghai · 2025.08 – 2026.07
+- **Microsoft** · SDE 2 (L62), M365 Search — Suzhou · 2021.01 – 2025.07
+- **Pinduoduo** · Backend Engineer, User Growth — Shanghai · 2019.04 – 2020.10
+- **Hefei Tongzhi Electromechanical** · Hardware Engineer, Training Simulators — Hefei · 2014.07 – 2015.07
+
+### Education
+
+- **University of Science and Technology of China** · M.Eng. in Software Engineering · 2016.09 – 2019.03
+- **Anhui Jianzhu University** · B.Eng. in Electrical Engineering and Automation · 2010.09 – 2014.06
+
 ## ⚡ Open Source Contributions
 <!--START_SECTION:activity-->
 1. 🎉 Merged PR [#1684](https://github.com/ros2/rclpy/pull/1684) in [ros2/rclpy](https://github.com/ros2/rclpy)
