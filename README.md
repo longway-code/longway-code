@@ -4,6 +4,8 @@ I build **[Good App HQ](https://www.goodapphq.com/)** — an independent studio 
 
 [ZipSeek](https://www.goodapphq.com/zipseek/) · [Sonaudit](https://www.goodapphq.com/sonaudit/) · [ContrastRadar](https://www.goodapphq.com/contrastradar/) · [DanceTake](https://www.goodapphq.com/dancetake/)
 
+💼 [LinkedIn](https://www.linkedin.com/in/longweiliu/) · 🌐 [goodapphq.com](https://www.goodapphq.com/)
+
 ### Experience
 
 - **Meituan** · Agent Engineer (L7), Agent Development · Core Local Commerce — Shanghai · 2025.08 – 2026.07
